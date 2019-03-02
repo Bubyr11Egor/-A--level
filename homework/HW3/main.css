@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main_nav a{
+  text-decoration: none;
+  padding-left: 15px;
+  color: black;
+}
+
+.main_nav a:hover{
+  color: grey;
+}
+
+.main_nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+header{
+  width:1000px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 100px;
+  max-width: 100%;
+  display: block;
+}
+/*Part2///////////////////////////////////////////////////////////*/
+article{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pre_main_img{
+  width: 100px;
+  max-width: 100%;
+  display: block;
+  margin-right: 10px;
+}
+
+.pre_main_img2{
+  width: 100px;
+  max-width: 100%;
+  display: block;
+  margin-left: 10px;
+}
+
+.article_block1{
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.article_block2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+article span{
+  font-size: 20px;
+  padding: 10px 0 ;
+  color: #a822b7;
+  font-style: bold;
+}
+/*Part3///////////////////////////////////////////////////*/
+main{
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+main span{
+  font-size: 20px;
+  padding: 10px 0 ;
+  color: #a822b7;
+  font-style: bold;
+}
+
+.main_block{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main_block1{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.main_img{
+  width: 70px;
+  max-width: 100%;
+  display: block;
+  float: left;
+  margin: 10px;
+}
+
+main::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+/*Part4/////////////////////////////////////*/
+footer{
+  width:1000px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

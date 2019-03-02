@@ -1,0 +1,58 @@
+
+div > div{
+  background-color: yellow;
+  border:1px solid #000;
+}
+div > div > div{
+  background-color: green;
+  border:1px solid #000;
+}
+div > div > div > div{
+  background-color: blue;
+  border:1px solid #000;
+}
+div > div > div > div > div{
+  background-color: purple;
+  border:1px solid #000;
+}
+
+div{
+  padding:25px;
+  background-color: red;
+  border:1px solid #000;
+}
+
+span{
+  margin:15px;
+  font-size:25px;
+  font-family:Arial;
+}
+/*Task number 2*/
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color:grey;
+  font-style: italic;
+}
+
+ul{
+  list-style: none;
+}
+
+li:before {
+  content: "-";
+}
+
+li:nth-child(even){
+  font-size:20px;
+}
+li:nth-child(3n+1){
+  background-color:yellow;
+}
+
+li:nth-child(1){
+  color: green!important;
+}
